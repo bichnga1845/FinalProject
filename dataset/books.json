@@ -1,0 +1,312 @@
+[
+    {
+        "book_id": "B1",
+        "book_name": "Conan",
+        "type": "Detective",
+        "published_year": "2005",
+        "publisher": "NXB Kim Dong",
+        "price": 20000,
+        "quantity": 37,
+        "author": "David"
+    },
+    {
+        "book_id": "B2",
+        "book_name": "Solo",
+        "type": "Action",
+        "published_year": "2020",
+        "publisher": "Anime",
+        "price": 30000,
+        "quantity": 95,
+        "author": "Sofia"
+    },
+    {
+        "book_id": "B3",
+        "book_name": "Legend",
+        "type": "Action",
+        "published_year": "2018",
+        "publisher": "Riot",
+        "price": 50000,
+        "quantity": 47,
+        "author": "John"
+    },
+    {
+        "book_id": "B4",
+        "book_name": "Mystery",
+        "type": "Detective",
+        "published_year": "2012",
+        "publisher": "HarperCollins",
+        "price": 25000,
+        "quantity": 60,
+        "author": "Anna"
+    },
+    {
+        "book_id": "B5",
+        "book_name": "Adventure",
+        "type": "Adventure",
+        "published_year": "2015",
+        "publisher": "Penguin",
+        "price": 18000,
+        "quantity": 80,
+        "author": "David"
+    },
+    {
+        "book_id": "B6",
+        "book_name": "Titanic",
+        "type": "Drama",
+        "published_year": "1998",
+        "publisher": "Random House",
+        "price": 22000,
+        "quantity": 120,
+        "author": "George"
+    },
+    {
+        "book_id": "B7",
+        "book_name": "Fantasy World",
+        "type": "Fantasy",
+        "published_year": "2017",
+        "publisher": "Viet Nam",
+        "price": 35000,
+        "quantity": 200,
+        "author": "John"
+    },
+    {
+        "book_id": "B8",
+        "book_name": "Journey",
+        "type": "Action",
+        "published_year": "2019",
+        "publisher": "Oxford",
+        "price": 27000,
+        "quantity": 75,
+        "author": "Sofia"
+    },
+    {
+        "book_id": "B9",
+        "book_name": "Warrior",
+        "type": "Action",
+        "published_year": "2021",
+        "publisher": "Viet Nam",
+        "price": 33000,
+        "quantity": 150,
+        "author": "David"
+    },
+    {
+        "book_id": "B10",
+        "book_name": "Echo",
+        "type": "Fantasy",
+        "published_year": "2013",
+        "publisher": "Viet Nam",
+        "price": 23000,
+        "quantity": 180,
+        "author": "Kim"
+    },
+    {
+        "book_id": "B11",
+        "book_name": "Nightmare",
+        "type": "Horror",
+        "published_year": "2010",
+        "publisher": "Riot",
+        "price": 45000,
+        "quantity": 35,
+        "author": "John"
+    },
+    {
+        "book_id": "B12",
+        "book_name": "The Last Stand",
+        "type": "Action",
+        "published_year": "2022",
+        "publisher": "Anime",
+        "price": 50000,
+        "quantity": 100,
+        "author": "Sofia"
+    },
+    {
+        "book_id": "B13",
+        "book_name": "Revenge",
+        "type": "Thriller",
+        "published_year": "2016",
+        "publisher": "Penguin",
+        "price": 40000,
+        "quantity": 45,
+        "author": "George"
+    },
+    {
+        "book_id": "B14",
+        "book_name": "Darkness",
+        "type": "Horror",
+        "published_year": "2021",
+        "publisher": "NXB Kim Dong",
+        "price": 55000,
+        "quantity": 110,
+        "author": "David"
+    },
+    {
+        "book_id": "B15",
+        "book_name": "Hope",
+        "type": "Drama",
+        "published_year": "2014",
+        "publisher": "HarperCollins",
+        "price": 20000,
+        "quantity": 130,
+        "author": "Sofia"
+    },
+    {
+        "book_id": "B16",
+        "book_name": "Galaxy",
+        "type": "Science Fiction",
+        "published_year": "2022",
+        "publisher": "Random House",
+        "price": 38000,
+        "quantity": 95,
+        "author": "John"
+    },
+    {
+        "book_id": "B17",
+        "book_name": "Universe",
+        "type": "Science Fiction",
+        "published_year": "2020",
+        "publisher": "Viet Nam",
+        "price": 47000,
+        "quantity": 85,
+        "author": "Kim"
+    },
+    {
+        "book_id": "B18",
+        "book_name": "Legend of Heroes",
+        "type": "Action",
+        "published_year": "2018",
+        "publisher": "Viet Nam",
+        "price": 30000,
+        "quantity": 70,
+        "author": "David"
+    },
+    {
+        "book_id": "B19",
+        "book_name": "Rising Sun",
+        "type": "Adventure",
+        "published_year": "2015",
+        "publisher": "Oxford",
+        "price": 25000,
+        "quantity": 60,
+        "author": "George"
+    },
+    {
+        "book_id": "B20",
+        "book_name": "Dragon's Tale",
+        "type": "Fantasy",
+        "published_year": "2016",
+        "publisher": "Penguin",
+        "price": 50000,
+        "quantity": 140,
+        "author": "Sofia"
+    },
+    {
+        "book_id": "B21",
+        "book_name": "Forest",
+        "type": "Adventure",
+        "published_year": "2021",
+        "publisher": "Viet Nam",
+        "price": 40000,
+        "quantity": 110,
+        "author": "Kim"
+    },
+    {
+        "book_id": "B22",
+        "book_name": "Storm",
+        "type": "Action",
+        "published_year": "2019",
+        "publisher": "Riot",
+        "price": 33000,
+        "quantity": 95,
+        "author": "David"
+    },
+    {
+        "book_id": "B23",
+        "book_name": "Underdog",
+        "type": "Drama",
+        "published_year": "2017",
+        "publisher": "NXB Kim Dong",
+        "price": 28000,
+        "quantity": 50,
+        "author": "John"
+    },
+    {
+        "book_id": "B24",
+        "book_name": "Kingdom",
+        "type": "Fantasy",
+        "published_year": "2020",
+        "publisher": "Viet Nam",
+        "price": 22000,
+        "quantity": 85,
+        "author": "Sofia"
+    },
+    {
+        "book_id": "B25",
+        "book_name": "Epic",
+        "type": "Action",
+        "published_year": "2018",
+        "publisher": "Riot",
+        "price": 45000,
+        "quantity": 110,
+        "author": "George"
+    },
+    {
+        "book_id": "B26",
+        "book_name": "Viking",
+        "type": "Adventure",
+        "published_year": "2021",
+        "publisher": "Penguin",
+        "price": 50000,
+        "quantity": 200,
+        "author": "Kim"
+    },
+    {
+        "book_id": "B27",
+        "book_name": "Warrior of Fate",
+        "type": "Action",
+        "published_year": "2022",
+        "publisher": "Viet Nam",
+        "price": 27000,
+        "quantity": 120,
+        "author": "David"
+    },
+    {
+        "book_id": "B28",
+        "book_name": "Assassin's Creed",
+        "type": "Action",
+        "published_year": "2019",
+        "publisher": "Viet Nam",
+        "price": 35000,
+        "quantity": 90,
+        "author": "John"
+    },
+    {
+        "book_id": "B29",
+        "book_name": "Legend of the Sea",
+        "type": "Fantasy",
+        "published_year": "2014",
+        "publisher": "Oxford",
+        "price": 25000,
+        "quantity": 150,
+        "author": "Sofia"
+    },
+    {
+        "book_id": "B30",
+        "book_name": "Silent Night",
+        "type": "Horror",
+        "published_year": "2021",
+        "publisher": "Random House",
+        "price": 50000,
+        "quantity": 60,
+        "author": "George"
+    },
+    {
+        "book_id": "B100",
+        "book_name": "Never",
+        "type": "Action",
+        "published_year": "01/01/2000",
+        "publisher": "NXB ",
+        "price": 20000.0,
+        "quantity": 100,
+        "author": "Sang"
+    }
+]

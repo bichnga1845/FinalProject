@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>478</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Author ID:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditAuthorID">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>140</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFF8DC; /* Màu nền vàng nhạt phù hợp với giao diện */
+    color: black; /* Màu chữ đen để dễ đọc */
+    border-radius: 5px; /* Bo tròn góc nhẹ để đẹp hơn */
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #4B0082; /* Viền xanh đậm giống trong ảnh */
+}
+
+/* Khi trỏ chuột vào */
+QLineEdit:hover {
+    background-color: #FAEBD7; /* Màu vàng kem khi hover */
+    border: 2px solid #8A2BE2; /* Viền tím xanh để nổi bật */
+}
+
+/* Khi focus vào (nhấn để nhập) */
+QLineEdit:focus {
+    background-color: #FFD700; /* Màu vàng sáng hơn khi nhập */
+    border: 2px solid #6A5ACD; /* Viền xanh tím */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditName">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFF8DC; /* Màu nền vàng nhạt phù hợp với giao diện */
+    color: black; /* Màu chữ đen để dễ đọc */
+    border-radius: 5px; /* Bo tròn góc nhẹ để đẹp hơn */
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #4B0082; /* Viền xanh đậm giống trong ảnh */
+}
+
+/* Khi trỏ chuột vào */
+QLineEdit:hover {
+    background-color: #FAEBD7; /* Màu vàng kem khi hover */
+    border: 2px solid #8A2BE2; /* Viền tím xanh để nổi bật */
+}
+
+/* Khi focus vào (nhấn để nhập) */
+QLineEdit:focus {
+    background-color: #FFD700; /* Màu vàng sáng hơn khi nhập */
+    border: 2px solid #6A5ACD; /* Viền xanh tím */
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Author Name:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditGender">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>240</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFF8DC; /* Màu nền vàng nhạt phù hợp với giao diện */
+    color: black; /* Màu chữ đen để dễ đọc */
+    border-radius: 5px; /* Bo tròn góc nhẹ để đẹp hơn */
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #4B0082; /* Viền xanh đậm giống trong ảnh */
+}
+
+/* Khi trỏ chuột vào */
+QLineEdit:hover {
+    background-color: #FAEBD7; /* Màu vàng kem khi hover */
+    border: 2px solid #8A2BE2; /* Viền tím xanh để nổi bật */
+}
+
+/* Khi focus vào (nhấn để nhập) */
+QLineEdit:focus {
+    background-color: #FFD700; /* Màu vàng sáng hơn khi nhập */
+    border: 2px solid #6A5ACD; /* Viền xanh tím */
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>240</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Gender:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditHometown">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>290</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFF8DC; /* Màu nền vàng nhạt phù hợp với giao diện */
+    color: black; /* Màu chữ đen để dễ đọc */
+    border-radius: 5px; /* Bo tròn góc nhẹ để đẹp hơn */
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #4B0082; /* Viền xanh đậm giống trong ảnh */
+}
+
+/* Khi trỏ chuột vào */
+QLineEdit:hover {
+    background-color: #FAEBD7; /* Màu vàng kem khi hover */
+    border: 2px solid #8A2BE2; /* Viền tím xanh để nổi bật */
+}
+
+/* Khi focus vào (nhấn để nhập) */
+QLineEdit:focus {
+    background-color: #FFD700; /* Màu vàng sáng hơn khi nhập */
+    border: 2px solid #6A5ACD; /* Viền xanh tím */
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>290</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Hometown:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditBookCount">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>340</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFF8DC; /* Màu nền vàng nhạt phù hợp với giao diện */
+    color: black; /* Màu chữ đen để dễ đọc */
+    border-radius: 5px; /* Bo tròn góc nhẹ để đẹp hơn */
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #4B0082; /* Viền xanh đậm giống trong ảnh */
+}
+
+/* Khi trỏ chuột vào */
+QLineEdit:hover {
+    background-color: #FAEBD7; /* Màu vàng kem khi hover */
+    border: 2px solid #8A2BE2; /* Viền tím xanh để nổi bật */
+}
+
+/* Khi focus vào (nhấn để nhập) */
+QLineEdit:focus {
+    background-color: #FFD700; /* Màu vàng sáng hơn khi nhập */
+    border: 2px solid #6A5ACD; /* Viền xanh tím */
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>340</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Book Count:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditBooks">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>389</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFF8DC; /* Màu nền vàng nhạt phù hợp với giao diện */
+    color: black; /* Màu chữ đen để dễ đọc */
+    border-radius: 5px; /* Bo tròn góc nhẹ để đẹp hơn */
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #4B0082; /* Viền xanh đậm giống trong ảnh */
+}
+
+/* Khi trỏ chuột vào */
+QLineEdit:hover {
+    background-color: #FAEBD7; /* Màu vàng kem khi hover */
+    border: 2px solid #8A2BE2; /* Viền tím xanh để nổi bật */
+}
+
+/* Khi focus vào (nhấn để nhập) */
+QLineEdit:focus {
+    background-color: #FFD700; /* Màu vàng sáng hơn khi nhập */
+    border: 2px solid #6A5ACD; /* Viền xanh tím */
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>390</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Books:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>701</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFF8DC; /* Màu nền vàng nhạt phù hợp với giao diện */
+    color: black; /* Màu chữ đen để dễ đọc */
+    border-radius: 5px; /* Bo tròn góc nhẹ để đẹp hơn */
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #4B0082; /* Viền xanh đậm giống trong ảnh */
+}
+
+/* Khi trỏ chuột vào */
+QLineEdit:hover {
+    background-color: #FAEBD7; /* Màu vàng kem khi hover */
+    border: 2px solid #8A2BE2; /* Viền tím xanh để nổi bật */
+}
+
+/* Khi focus vào (nhấn để nhập) */
+QLineEdit:focus {
+    background-color: #FFD700; /* Màu vàng sáng hơn khi nhập */
+    border: 2px solid #6A5ACD; /* Viền xanh tím */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/pc_background2.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>331</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;AUTHOR DETAILS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>label_8</zorder>
+   <zorder>label_2</zorder>
+   <zorder>lineEditAuthorID</zorder>
+   <zorder>lineEditName</zorder>
+   <zorder>label_3</zorder>
+   <zorder>lineEditGender</zorder>
+   <zorder>label_4</zorder>
+   <zorder>lineEditHometown</zorder>
+   <zorder>label_5</zorder>
+   <zorder>lineEditBookCount</zorder>
+   <zorder>label_6</zorder>
+   <zorder>lineEditBooks</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>478</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

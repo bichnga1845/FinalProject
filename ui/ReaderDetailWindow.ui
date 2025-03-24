@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>641</width>
+    <height>655</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #E8F5E9; /* Xanh lá pastel nhẹ */
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1B5E20; /* Xanh lá đậm */
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}</string>
+    </property>
+    <property name="text">
+     <string>READER DETAIL</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 10px;
+    font-weight: bold;
+    color: #2E7D32; /* Xanh lá đậm */
+}</string>
+    </property>
+    <property name="text">
+     <string>Reader ID:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditReaderID">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>130</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFFFFF; /* Nền trắng */
+    color: #1B5E20; /* Chữ xanh lá đậm */
+    border-radius: 5px; /* Bo góc */
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #66BB6A; /* Viền xanh lá nhạt */
+}
+
+/* Khi hover vào ô nhập */
+QLineEdit:hover {
+    background-color: #C8E6C9; /* Xanh lá nhạt */
+    border: 2px solid #388E3C; /* Viền xanh lá đậm hơn */
+}
+
+/* Khi ô nhập có focus */
+QLineEdit:focus {
+    background-color: #A5D6A7; /* Màu xanh lá sáng khi nhập */
+    border: 2px solid #2E7D32; /* Viền xanh lá đậm hơn */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditReaderName">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>180</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFFFFF; /* Nền trắng */
+    color: #1B5E20; /* Chữ xanh lá đậm */
+    border-radius: 5px; /* Bo góc */
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #66BB6A; /* Viền xanh lá nhạt */
+}
+
+/* Khi hover vào ô nhập */
+QLineEdit:hover {
+    background-color: #C8E6C9; /* Xanh lá nhạt */
+    border: 2px solid #388E3C; /* Viền xanh lá đậm hơn */
+}
+
+/* Khi ô nhập có focus */
+QLineEdit:focus {
+    background-color: #A5D6A7; /* Màu xanh lá sáng khi nhập */
+    border: 2px solid #2E7D32; /* Viền xanh lá đậm hơn */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 10px;
+    font-weight: bold;
+    color: #2E7D32; /* Xanh lá đậm */
+}</string>
+    </property>
+    <property name="text">
+     <string>Reader Name:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditReaderBooks">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>230</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #FFFFFF; /* Nền trắng */
+    color: #1B5E20; /* Chữ xanh lá đậm */
+    border-radius: 5px; /* Bo góc */
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #66BB6A; /* Viền xanh lá nhạt */
+}
+
+/* Khi hover vào ô nhập */
+QLineEdit:hover {
+    background-color: #C8E6C9; /* Xanh lá nhạt */
+    border: 2px solid #388E3C; /* Viền xanh lá đậm hơn */
+}
+
+/* Khi ô nhập có focus */
+QLineEdit:focus {
+    background-color: #A5D6A7; /* Màu xanh lá sáng khi nhập */
+    border: 2px solid #2E7D32; /* Viền xanh lá đậm hơn */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>230</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 10px;
+    font-weight: bold;
+    color: #2E7D32; /* Xanh lá đậm */
+}</string>
+    </property>
+    <property name="text">
+     <string>Books:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-30</y>
+      <width>651</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/pic_readdetail.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>lineEditReaderID</zorder>
+   <zorder>lineEditReaderName</zorder>
+   <zorder>label_3</zorder>
+   <zorder>lineEditReaderBooks</zorder>
+   <zorder>label_7</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>641</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

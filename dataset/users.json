@@ -1,0 +1,302 @@
+[
+    {
+        "username": "sang",
+        "password": "123",
+        "name": "Sang",
+        "phone": "09876543456",
+        "gender": "Female",
+        "date": "24/03/2025",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "thien",
+        "password": "123",
+        "name": "Thien",
+        "phone": "0934212345",
+        "gender": "Male",
+        "date": "15/08/1995",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "you",
+        "password": "123",
+        "name": "You",
+        "phone": "0988123456",
+        "gender": "Female",
+        "date": "01/07/2000",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "nga",
+        "password": "123",
+        "name": "Nga",
+        "phone": "0976543210",
+        "gender": "Male",
+        "date": "22/10/1993",
+        "address": "Ha Noi",
+        "role": "user"
+    },
+    {
+        "username": "ngoc",
+        "password": "123",
+        "name": "nguyễn thị ngọc ánh",
+        "phone": "0923456789",
+        "gender": "Female",
+        "date": "10/05/2001",
+        "address": "Da Nang",
+        "role": "user"
+    },
+    {
+        "username": "khanh",
+        "password": "abc",
+        "name": "nguyễn vân ngọc khánh",
+        "phone": "0934123456",
+        "gender": "Male",
+        "date": "04/02/1990",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "thu",
+        "password": "456",
+        "name": "Lý Minh Thư",
+        "phone": "0978123456",
+        "gender": "Female",
+        "date": "19/06/2002",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "emma",
+        "password": "123",
+        "name": "Emma",
+        "phone": "0978123456",
+        "gender": "Female",
+        "date": "19/06/2002",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "frank",
+        "password": "123",
+        "name": "Frank",
+        "phone": "0912123456",
+        "gender": "Male",
+        "date": "13/09/1985",
+        "address": "Ha Noi",
+        "role": "user"
+    },
+    {
+        "username": "grace",
+        "password": "123",
+        "name": "Grace",
+        "phone": "0945123456",
+        "gender": "Female",
+        "date": "25/12/1997",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "harry",
+        "password": "123",
+        "name": "Harry",
+        "phone": "0912345678",
+        "gender": "Male",
+        "date": "17/11/1992",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "ivy",
+        "password": "123",
+        "name": "Ivy",
+        "phone": "0932567890",
+        "gender": "Female",
+        "date": "22/07/1996",
+        "address": "Da Nang",
+        "role": "user"
+    },
+    {
+        "username": "jack",
+        "password": "123",
+        "name": "Jack",
+        "phone": "0971234567",
+        "gender": "Male",
+        "date": "02/02/1994",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "kathy",
+        "password": "123",
+        "name": "Kathy",
+        "phone": "0907890123",
+        "gender": "Female",
+        "date": "09/03/1998",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "leo",
+        "password": "123",
+        "name": "Leo",
+        "phone": "0918765432",
+        "gender": "Male",
+        "date": "18/04/1990",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "mia",
+        "password": "123",
+        "name": "Mia",
+        "phone": "0946758392",
+        "gender": "Female",
+        "date": "05/10/2000",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "nick",
+        "password": "123",
+        "name": "Nick",
+        "phone": "0934126789",
+        "gender": "Male",
+        "date": "27/08/1994",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "olivia",
+        "password": "123",
+        "name": "Olivia",
+        "phone": "0912456789",
+        "gender": "Female",
+        "date": "15/05/1995",
+        "address": "Ha Noi",
+        "role": "user"
+    },
+    {
+        "username": "paul",
+        "password": "123",
+        "name": "Paul",
+        "phone": "0938765432",
+        "gender": "Male",
+        "date": "06/01/1991",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "quincy",
+        "password": "123",
+        "name": "Quincy",
+        "phone": "0945678901",
+        "gender": "Male",
+        "date": "28/09/1987",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "rita",
+        "password": "123",
+        "name": "Rita",
+        "phone": "0916543210",
+        "gender": "Female",
+        "date": "12/12/1999",
+        "address": "Da Nang",
+        "role": "user"
+    },
+    {
+        "username": "sam",
+        "password": "123",
+        "name": "Sam",
+        "phone": "0978901234",
+        "gender": "Male",
+        "date": "14/03/1993",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "tina",
+        "password": "123",
+        "name": "Tina",
+        "phone": "0929876543",
+        "gender": "Female",
+        "date": "23/07/2001",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "ursula",
+        "password": "123",
+        "name": "Ursula",
+        "phone": "0983412345",
+        "gender": "Female",
+        "date": "17/09/1998",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "victor",
+        "password": "123",
+        "name": "Victor",
+        "phone": "0913212345",
+        "gender": "Male",
+        "date": "19/06/1990",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "wendy",
+        "password": "123",
+        "name": "Wendy",
+        "phone": "0987654321",
+        "gender": "Female",
+        "date": "20/03/1995",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "xander",
+        "password": "123",
+        "name": "Xander",
+        "phone": "0934109876",
+        "gender": "Male",
+        "date": "11/11/1992",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "yara",
+        "password": "123",
+        "name": "Yara",
+        "phone": "0923456789",
+        "gender": "Female",
+        "date": "04/06/2003",
+        "address": "Ha Noi",
+        "role": "user"
+    },
+    {
+        "username": "zane",
+        "password": "123",
+        "name": "Zane",
+        "phone": "0943212345",
+        "gender": "Male",
+        "date": "30/12/1989",
+        "address": "HCM",
+        "role": "user"
+    },
+    {
+        "username": "john",
+        "password": "123",
+        "name": "John",
+        "phone": "0098765432345",
+        "gender": "Male",
+        "date": "01/01/2000",
+        "address": "ABC town",
+        "role": "admin"
+    }
+]

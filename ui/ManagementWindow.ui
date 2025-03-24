@@ -1,0 +1,2657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>880</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(217, 217, 217);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777154</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDateTimeEdit {
+    background-color: #ecf8e5; /* Màu nền giống QLineEdit */
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+/* Khi trỏ chuột vào */
+QDateTimeEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+/* Khi focus vào */
+QDateTimeEdit:focus {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+      </property>
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Reader Management</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonUpdateReader">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>260</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Update</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_update.png</normaloff>../images/pic_update.png</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonAddReader">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>260</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Add</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_add.webp</normaloff>../images/pic_add.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonShowAllReader">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>260</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Show all</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_showall.webp</normaloff>../images/pic_showall.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDeleteReader">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>260</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Delete</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_delete.webp</normaloff>../images/pic_delete.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>310</y>
+          <width>871</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #D6EFD8</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QTableWidget" name="tableWidgetReader">
+           <property name="styleSheet">
+            <string notr="true">background-color: #D6EFD8</string>
+           </property>
+           <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>138</number>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>Reader ID</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Full Name</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Gender</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>B.O.D</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Phone</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Address</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>871</width>
+          <height>601</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../images/pic_background.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>871</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #D6EFD8</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pushButtonSearchReader">
+         <property name="geometry">
+          <rect>
+           <x>690</x>
+           <y>100</y>
+           <width>101</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+         </property>
+         <property name="text">
+          <string>Search</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../images/pic_search.webp</normaloff>../images/pic_search.webp</iconset>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Reader ID:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditReaderIDReader">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="dateEditDateReader">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>21</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QDateTimeEdit {
+    background-color: #ecf8e5; /* Màu nền giống QLineEdit */
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+/* Khi trỏ chuột vào */
+QDateTimeEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+/* Khi focus vào */
+QDateTimeEdit:focus {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_26">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Full Name:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>30</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>B.O.D:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditGenderReader">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>120</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>80</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Phone:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditReaderNameReader">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>80</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditPhoneReader">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>70</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditSearchReader">
+         <property name="geometry">
+          <rect>
+           <x>650</x>
+           <y>50</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>700</x>
+           <y>20</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>SEARCHING</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>130</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Address:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditAddressReader">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>120</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>130</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Gender:</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>10</y>
+          <width>401</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #ecf8e5;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 5px 15px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid #508D4E;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;READER MANAGEMENT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <zorder>label_13</zorder>
+       <zorder>pushButtonUpdateReader</zorder>
+       <zorder>pushButtonAddReader</zorder>
+       <zorder>pushButtonShowAllReader</zorder>
+       <zorder>pushButtonDeleteReader</zorder>
+       <zorder>groupBox_3</zorder>
+       <zorder>groupBox_5</zorder>
+       <zorder>label_14</zorder>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Book Management</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonAddBook">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>290</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Add</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_update.webp</normaloff>../images/pic_update.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonUpdateBook">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>290</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Update</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_update.png</normaloff>../images/pic_update.png</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDeleteBook">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>290</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Delete</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_delete.webp</normaloff>../images/pic_delete.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonShowAllBook">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>290</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Show all</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_showall.webp</normaloff>../images/pic_showall.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>340</y>
+          <width>871</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #D6EFD8</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QTableWidget" name="tableWidgetBook">
+           <property name="styleSheet">
+            <string notr="true">background-color: #D6EFD8</string>
+           </property>
+           <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>103</number>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>Book ID</string>
+            </property>
+            <property name="background">
+             <color>
+              <red>236</red>
+              <green>248</green>
+              <blue>229</blue>
+             </color>
+            </property>
+            <property name="foreground">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Book Name</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Book Type</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Publish Date</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Publisher</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Price</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Quantity</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Author</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>60</y>
+          <width>871</width>
+          <height>221</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #D6EFD8</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pushButtonSearchBook">
+         <property name="geometry">
+          <rect>
+           <x>690</x>
+           <y>130</y>
+           <width>91</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+         </property>
+         <property name="text">
+          <string>Search</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../images/pic_search.webp</normaloff>../images/pic_search.webp</iconset>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="dateEditPublishDateBook">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>30</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QDateTimeEdit {
+    background-color: #ecf8e5; /* Màu nền giống QLineEdit */
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+/* Khi trỏ chuột vào */
+QDateTimeEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+/* Khi focus vào */
+QDateTimeEdit:focus {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditPublisher">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>180</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>30</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>Publish Date:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>130</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>Price:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditAuthorBook">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>180</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>180</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>Publisher:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>Book Name:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>700</x>
+           <y>50</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;SEARCHING&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>80</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>Quantity:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditQuantityBook">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>80</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditSearchBook">
+         <property name="geometry">
+          <rect>
+           <x>650</x>
+           <y>80</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>130</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>Book Type:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>11</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>Book ID:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditTypeBook">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>130</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditBookNameBook">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>80</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditPriceBook">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>130</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>180</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #D6EFD8</string>
+         </property>
+         <property name="text">
+          <string>Author:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditBookIDBook">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>30</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>234111</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>881</width>
+          <height>611</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../images/pic_background.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignJustify|Qt::AlignTop</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>0</y>
+          <width>321</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #ecf8e5;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 5px 15px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid #508D4E;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;BOOK MANAGEMENT &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <zorder>label_10</zorder>
+       <zorder>pushButtonAddBook</zorder>
+       <zorder>pushButtonUpdateBook</zorder>
+       <zorder>pushButtonDeleteBook</zorder>
+       <zorder>pushButtonShowAllBook</zorder>
+       <zorder>groupBox</zorder>
+       <zorder>groupBox_2</zorder>
+       <zorder>label_11</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Author Management</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonAddAuthor">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>300</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Add</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_add.webp</normaloff>../images/pic_add.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonShowAllAuthor">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>300</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Show all</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_showall.webp</normaloff>../images/pic_showall.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDeleteAuthor">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>300</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Delete</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_delete.webp</normaloff>../images/pic_delete.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonUpdateAuthor">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>300</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+        </property>
+        <property name="text">
+         <string>Update</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_update.png</normaloff>../images/pic_update.png</iconset>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>350</y>
+          <width>871</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #D6EFD8</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QTableWidget" name="tableWidgetAuthor">
+           <property name="styleSheet">
+            <string notr="true">background-color: #D6EFD8
+</string>
+           </property>
+           <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>207</number>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>Author ID</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Full Name</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Gender</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Hometown</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>881</width>
+          <height>591</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../images/pic_background.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>80</y>
+          <width>881</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #D6EFD8</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pushButtonSearchAuthor">
+         <property name="geometry">
+          <rect>
+           <x>610</x>
+           <y>100</y>
+           <width>91</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+         </property>
+         <property name="text">
+          <string>Search</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../images/pic_search.webp</normaloff>../images/pic_search.webp</iconset>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_30">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>20</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Author ID:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_29">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>70</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Full Name:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditAuthorIDAuthor">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>20</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditHometownAuthor">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>170</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditAuthorNameAuthor">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>70</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>170</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Hometown:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditSearchAuthor">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>60</y>
+           <width>201</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_28">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>120</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Gender:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>610</x>
+           <y>30</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>SEARCHING</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditGenderAuthor">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>120</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>20</y>
+          <width>401</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #ecf8e5;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 5px 15px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid #508D4E;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;AUTHOR MANAGEMENT&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <zorder>label_12</zorder>
+       <zorder>pushButtonAddAuthor</zorder>
+       <zorder>pushButtonShowAllAuthor</zorder>
+       <zorder>pushButtonDeleteAuthor</zorder>
+       <zorder>pushButtonUpdateAuthor</zorder>
+       <zorder>groupBox_4</zorder>
+       <zorder>groupBox_6</zorder>
+       <zorder>label_15</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Borrowing and Returning Management</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButtonAddOrder">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>300</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(163, 222, 164);
+        color: rgb(0, 0, 0);
+        border-radius: 3px;
+        padding: 5px 15px;
+        font-size: 13px;
+        font-weight: bold;
+        border: 2px solid #1A5319;
+</string>
+        </property>
+        <property name="text">
+         <string>Add</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_add.webp</normaloff>../images/pic_add.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonUpdateOrder">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>300</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(163, 222, 164);
+        color: rgb(0, 0, 0);
+        border-radius: 3px;
+        padding: 5px 15px;
+        font-size: 13px;
+        font-weight: bold;
+        border: 2px solid #1A5319;</string>
+        </property>
+        <property name="text">
+         <string>Update</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_update.png</normaloff>../images/pic_update.png</iconset>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_11">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>350</y>
+          <width>871</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #D6EFD8</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_14">
+         <item>
+          <widget class="QTableWidget" name="tableWidgetBorrowAndReturn">
+           <property name="styleSheet">
+            <string notr="true">background-color: #D6EFD8</string>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+           <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>117</number>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>Order ID</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Reader ID</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Book ID</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Quantity</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Status</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Borrowing Date</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Returning Date</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="pushButtonDeleteOrder">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>300</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(163, 222, 164);
+        color: rgb(0, 0, 0);
+        border-radius: 3px;
+        padding: 5px 15px;
+        font-size: 13px;
+        font-weight: bold;
+        border: 2px solid #1A5319;</string>
+        </property>
+        <property name="text">
+         <string>Delete</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../images/pic_delete.webp</normaloff>../images/pic_delete.webp</iconset>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>110</y>
+          <width>871</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #D6EFD8</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QDateEdit" name="dateEditDateBorrowing">
+         <property name="geometry">
+          <rect>
+           <x>580</x>
+           <y>30</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QDateTimeEdit {
+    background-color: #ecf8e5; /* Màu nền giống QLineEdit */
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+/* Khi trỏ chuột vào */
+QDateTimeEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+/* Khi focus vào */
+QDateTimeEdit:focus {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_56">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>30</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Borrowing Date:</string>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="dateEditDateReturning">
+         <property name="geometry">
+          <rect>
+           <x>580</x>
+           <y>80</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QDateTimeEdit {
+    background-color: #ecf8e5; /* Màu nền giống QLineEdit */
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+/* Khi trỏ chuột vào */
+QDateTimeEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+/* Khi focus vào */
+QDateTimeEdit:focus {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_55">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>130</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Quantity:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_57">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>80</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Returning Date:</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBoxStatus">
+         <property name="geometry">
+          <rect>
+           <x>580</x>
+           <y>130</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+    background-color: #ecf8e5; /* Màu nền giống QLineEdit */
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+/* Khi trỏ chuột vào */
+QComboBox:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+/* Khi focus vào (click để mở dropdown) */
+QComboBox:focus {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+
+</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Not Returned</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Returned</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLineEdit" name="lineEditReaderIDBR">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>30</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_58">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>130</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Status:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_52">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>80</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Book ID:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_53">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Reader ID:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditBookIDBR">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>80</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditQuantityBR">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>120</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>661</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #ecf8e5;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 5px 15px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid #508D4E;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;BORROWING AND RETURNING MANAGEMENT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>871</width>
+          <height>601</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../images/pic_background.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <zorder>label_17</zorder>
+       <zorder>pushButtonAddOrder</zorder>
+       <zorder>pushButtonUpdateOrder</zorder>
+       <zorder>groupBox_11</zorder>
+       <zorder>pushButtonDeleteOrder</zorder>
+       <zorder>groupBox_7</zorder>
+       <zorder>label_16</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>880</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <widget class="QMenu" name="menuExport_Excel">
+     <property name="title">
+      <string>Export Excel</string>
+     </property>
+     <addaction name="actionExport_Reader_Data"/>
+     <addaction name="actionExport_Book_Data"/>
+     <addaction name="actionExport_Author_Data"/>
+     <addaction name="actionExport_Order_Data"/>
+     <addaction name="separator"/>
+     <addaction name="actionExport_All"/>
+    </widget>
+    <addaction name="actionLog_Out"/>
+    <addaction name="menuExport_Excel"/>
+   </widget>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLog_Out">
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+  </action>
+  <action name="actionExport_Reader_Data">
+   <property name="text">
+    <string>Export Reader Data</string>
+   </property>
+  </action>
+  <action name="actionExport_Book_Data">
+   <property name="text">
+    <string>Export Book Data</string>
+   </property>
+  </action>
+  <action name="actionExport_Author_Data">
+   <property name="text">
+    <string>Export Author Data</string>
+   </property>
+  </action>
+  <action name="actionExport_Order_Data">
+   <property name="text">
+    <string>Export Order Data</string>
+   </property>
+  </action>
+  <action name="actionExport_All">
+   <property name="text">
+    <string>Export All</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

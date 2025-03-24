@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1396</width>
+    <height>658</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>200</height>
+         </size>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QLabel" name="labelWelcome">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 170, 0);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>../images/pic_background.jpg</pixmap>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>../images/pic_background.jpg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEditSearch">
+             <property name="styleSheet">
+              <string notr="true">QLineEdit {
+    background-color: #FFFFFF; /* Nền trắng */
+    color: #1B5E20; /* Chữ xanh lá đậm */
+    border-radius: 5px; /* Bo góc mềm mại hơn */
+    padding: 6px 10px;
+    font-size: 8px;
+    font-weight: bold;
+    border: 2px solid #4CAF50; /* Viền xanh lá vừa phải */
+}
+
+/* Khi hover vào ô nhập */
+QLineEdit:hover {
+    background-color: #E8F5E9; /* Xanh lá nhạt hơn khi hover */
+    border: 2px solid #388E3C; /* Viền xanh lá đậm hơn */
+}
+
+/* Khi ô nhập có focus */
+QLineEdit:focus {
+    background-color: #C5E1A5; /* Màu xanh sáng khi nhập */
+    border: 2px solid #2E7D32; /* Viền xanh lá đậm hơn */
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>Search author or book here:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButtonSearchBook">
+             <property name="font">
+              <font>
+               <pointsize>-1</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #4CAF50; /* Màu xanh lá chủ đạo */
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 8px 16px;
+    border: none;
+}
+
+/* Khi hover vào nút */
+QPushButton:hover {
+    background-color: #2E7D32; /* Xanh lá đậm hơn */
+}
+
+/* Khi bấm vào */
+QPushButton:pressed {
+    background-color: #1B5E20; /* Xanh lá rừng đậm */
+}
+</string>
+             </property>
+             <property name="text">
+              <string>Search</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>List of Books:</string>
+        </property>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>1361</width>
+           <height>311</height>
+          </rect>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>115</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Book ID</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Title</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Book Type</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Published Date</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Publisher</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Stock</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Author</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Borrowing Quantity </string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>-130</x>
+           <y>-280</y>
+           <width>1761</width>
+           <height>701</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../images/pic_background.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <zorder>label_2</zorder>
+        <zorder>tableWidget</zorder>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="title">
+         <string>Total:</string>
+        </property>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>15</y>
+           <width>521</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    font-size: 13px;
+    font-weight: bold;
+    color: #1B5E20; /* Xanh lá đậm hơn */
+}</string>
+         </property>
+         <property name="text">
+          <string>Total:</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonLogOut_2">
+         <property name="geometry">
+          <rect>
+           <x>1230</x>
+           <y>10</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+       background-color: #4CAF50; /* Màu xanh lá chủ đạo */
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 8px 16px;
+    border: none;}
+
+/* Khi hover vào nút */
+QPushButton:hover {
+    background-color: #2E7D32; /* Xanh lá đậm hơn */
+}
+
+/* Khi bấm vào */
+QPushButton:pressed {
+    background-color: #1B5E20; /* Xanh lá rừng đậm */
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Log Out</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelTotal">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>15</y>
+           <width>621</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonOrder">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>10</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #4CAF50; /* Màu xanh lá chủ đạo */
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 8px 16px;
+    border: none;
+}
+
+/* Khi hover vào nút */
+QPushButton:hover {
+    background-color: #2E7D32; /* Xanh lá đậm hơn */
+}
+
+/* Khi bấm vào */
+QPushButton:pressed {
+    background-color: #1B5E20; /* Xanh lá rừng đậm */
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Order</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>-130</x>
+           <y>-191</y>
+           <width>1601</width>
+           <height>311</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../images/pic_background.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <zorder>label_4</zorder>
+        <zorder>label</zorder>
+        <zorder>pushButtonLogOut_2</zorder>
+        <zorder>labelTotal</zorder>
+        <zorder>pushButtonOrder</zorder>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1396</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

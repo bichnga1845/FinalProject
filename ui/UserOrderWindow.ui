@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>651</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayoutOrder">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 0, 0);
+font: 12pt &quot;Century Gothic&quot;;</string>
+       </property>
+       <property name="text">
+        <string>YOUR ORDER:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButtonConfirm">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>380</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #4CAF50; /* Màu xanh lá chủ đạo */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 8px 16px;
+    border: none;
+}
+
+/* Khi hover vào nút */
+QPushButton:hover {
+    background-color: #2E7D32; /* Xanh lá đậm hơn */
+}
+
+/* Khi bấm vào */
+QPushButton:pressed {
+    background-color: #1B5E20; /* Xanh lá rừng đậm */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Confirm Order</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>-1</y>
+      <width>831</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/pic_register.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>pushButtonConfirm</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>729</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,434 @@
+[
+    {
+        "reader_id": 1,
+        "name": "Sang",
+        "gender": "Female",
+        "date": "24/03/2025",
+        "phone": "09876543456",
+        "address": "HCM",
+        "books": [
+            [
+                "B1",
+                4
+            ],
+            [
+                "B2",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 2,
+        "name": "Thien",
+        "gender": "Male",
+        "date": "15/08/1995",
+        "phone": "0934212345",
+        "address": "HCM",
+        "books": [
+            [
+                "B2",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 3,
+        "name": "You",
+        "gender": "Female",
+        "date": "01/07/2000",
+        "phone": "0988123456",
+        "address": "HCM",
+        "books": [
+            [
+                "B3",
+                1
+            ],
+            [
+                "B4",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 4,
+        "name": "Nga",
+        "gender": "Male",
+        "date": "22/10/1993",
+        "phone": "0976543210",
+        "address": "Ha Noi",
+        "books": [
+            [
+                "B5",
+                3
+            ]
+        ]
+    },
+    {
+        "reader_id": 5,
+        "name": "nguyễn thị ngọc ánh",
+        "gender": "Female",
+        "date": "10/05/2001",
+        "phone": "0923456789",
+        "address": "Da Nang",
+        "books": [
+            [
+                "B6",
+                1
+            ],
+            [
+                "B7",
+                4
+            ]
+        ]
+    },
+    {
+        "reader_id": 6,
+        "name": "nguyễn vân ngọc khánh",
+        "gender": "Male",
+        "date": "04/02/1990",
+        "phone": "0934123456",
+        "address": "HCM",
+        "books": [
+            [
+                "B8",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 7,
+        "name": "Emma",
+        "gender": "Female",
+        "date": "19/06/2002",
+        "phone": "0978123456",
+        "address": "HCM",
+        "books": [
+            [
+                "B9",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 8,
+        "name": "Frank",
+        "gender": "Male",
+        "date": "13/09/1985",
+        "phone": "0912123456",
+        "address": "Ha Noi",
+        "books": [
+            [
+                "B10",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 9,
+        "name": "Grace",
+        "gender": "Female",
+        "date": "25/12/1997",
+        "phone": "0945123456",
+        "address": "HCM",
+        "books": [
+            [
+                "B11",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 10,
+        "name": "Harry",
+        "gender": "Male",
+        "date": "17/11/1992",
+        "phone": "0912345678",
+        "address": "HCM",
+        "books": [
+            [
+                "B12",
+                3
+            ]
+        ]
+    },
+    {
+        "reader_id": 11,
+        "name": "Ivy",
+        "gender": "Female",
+        "date": "22/07/1996",
+        "phone": "0932567890",
+        "address": "Da Nang",
+        "books": [
+            [
+                "B13",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 12,
+        "name": "Jack",
+        "gender": "Male",
+        "date": "02/02/1994",
+        "phone": "0971234567",
+        "address": "HCM",
+        "books": [
+            [
+                "B14",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 13,
+        "name": "Kathy",
+        "gender": "Female",
+        "date": "09/03/1998",
+        "phone": "0907890123",
+        "address": "HCM",
+        "books": [
+            [
+                "B15",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 14,
+        "name": "Leo",
+        "gender": "Male",
+        "date": "18/04/1990",
+        "phone": "0918765432",
+        "address": "HCM",
+        "books": [
+            [
+                "B16",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 15,
+        "name": "Mia",
+        "gender": "Female",
+        "date": "05/10/2000",
+        "phone": "0946758392",
+        "address": "HCM",
+        "books": [
+            [
+                "B17",
+                3
+            ]
+        ]
+    },
+    {
+        "reader_id": 16,
+        "name": "Nick",
+        "gender": "Male",
+        "date": "27/08/1994",
+        "phone": "0934126789",
+        "address": "HCM",
+        "books": [
+            [
+                "B18",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 17,
+        "name": "Olivia",
+        "gender": "Female",
+        "date": "15/05/1995",
+        "phone": "0912456789",
+        "address": "Ha Noi",
+        "books": [
+            [
+                "B19",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 18,
+        "name": "Paul",
+        "gender": "Male",
+        "date": "06/01/1991",
+        "phone": "0938765432",
+        "address": "HCM",
+        "books": [
+            [
+                "B20",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 19,
+        "name": "Quincy",
+        "gender": "Male",
+        "date": "28/09/1987",
+        "phone": "0945678901",
+        "address": "HCM",
+        "books": [
+            [
+                "B21",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 20,
+        "name": "Rita",
+        "gender": "Female",
+        "date": "12/12/1999",
+        "phone": "0916543210",
+        "address": "Da Nang",
+        "books": [
+            [
+                "B22",
+                3
+            ]
+        ]
+    },
+    {
+        "reader_id": 21,
+        "name": "Sam",
+        "gender": "Male",
+        "date": "14/03/1993",
+        "phone": "0978901234",
+        "address": "HCM",
+        "books": [
+            [
+                "B23",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 22,
+        "name": "Tina",
+        "gender": "Female",
+        "date": "23/07/2001",
+        "phone": "0929876543",
+        "address": "HCM",
+        "books": [
+            [
+                "B24",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 23,
+        "name": "Ursula",
+        "gender": "Female",
+        "date": "17/09/1998",
+        "phone": "0983412345",
+        "address": "HCM",
+        "books": [
+            [
+                "B25",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 24,
+        "name": "Victor",
+        "gender": "Male",
+        "date": "19/06/1990",
+        "phone": "0913212345",
+        "address": "HCM",
+        "books": [
+            [
+                "B26",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 25,
+        "name": "Wendy",
+        "gender": "Female",
+        "date": "20/03/1995",
+        "phone": "0987654321",
+        "address": "HCM",
+        "books": [
+            [
+                "B27",
+                3
+            ]
+        ]
+    },
+    {
+        "reader_id": 26,
+        "name": "Xander",
+        "gender": "Male",
+        "date": "11/11/1992",
+        "phone": "0934109876",
+        "address": "HCM",
+        "books": [
+            [
+                "B28",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 27,
+        "name": "Yara",
+        "gender": "Female",
+        "date": "04/06/2003",
+        "phone": "0923456789",
+        "address": "Ha Noi",
+        "books": [
+            [
+                "B29",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 28,
+        "name": "Zane",
+        "gender": "Male",
+        "date": "30/12/1989",
+        "phone": "0943212345",
+        "address": "HCM",
+        "books": [
+            [
+                "B30",
+                1
+            ]
+        ]
+    },
+    {
+        "reader_id": 29,
+        "name": "Anna",
+        "gender": "Female",
+        "date": "15/08/1997",
+        "phone": "0912345678",
+        "address": "Da Nang",
+        "books": [
+            [
+                "B1",
+                2
+            ]
+        ]
+    },
+    {
+        "reader_id": 30,
+        "name": "John",
+        "gender": "Male",
+        "date": "12/01/1988",
+        "phone": "0923456789",
+        "address": "HCM",
+        "books": [
+            [
+                "B2",
+                1
+            ]
+        ]
+    }
+]

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>722</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-80</y>
+      <width>721</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/signup.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>20</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ecf8e5;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 5px 15px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid #508D4E;
+font: 75 20pt &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;SIGN UP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>91</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+font: 75 11pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>User Name:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditUserName">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditPassword">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>140</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>141</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+
+font: 75 11pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Password:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditFullName">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>190</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>190</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+
+font: 75 11pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Full Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>280</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+
+font: 75 11pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Date of birth:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditPhone">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>330</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+
+font: 75 11pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Phone</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditAddress">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>380</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #ecf8e5;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+QLineEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>380</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+
+font: 75 11pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Address:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSignUp">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>500</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(163, 222, 164); /* Màu nền ban đầu */
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #1A5319;
+}
+
+QPushButton:hover {
+    background-color: rgb(140, 200, 140); /* Màu khi trỏ chuột vào */
+    border: 2px solid #136b13;
+}
+
+QPushButton:pressed {
+    background-color: rgb(100, 181, 100); /* Màu khi bấm vào */
+    border: 2px solid #0D471A;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>230</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+
+font: 75 11pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gender:</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEditDate">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>280</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDateTimeEdit {
+    background-color: #ecf8e5; /* Màu nền giống QLineEdit */
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+/* Khi trỏ chuột vào */
+QDateTimeEdit:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+/* Khi focus vào */
+QDateTimeEdit:focus {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxGender">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+    background-color: #ecf8e5; /* Màu nền giống QLineEdit */
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    border: 2px solid #508D4E;
+}
+
+/* Khi trỏ chuột vào */
+QComboBox:hover {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}
+
+/* Khi focus vào (click để mở dropdown) */
+QComboBox:focus {
+    background-color: #E0F7FA;
+    border: 2px solid #00897B;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Male</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Female</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonAdmin">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>420</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1B5E20;
+}
+
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #4CAF50;
+    background-color: white;
+}
+
+QRadioButton::indicator:hover {
+    border: 2px solid #388E3C;
+    background-color: #E8F5E9;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #4CAF50;
+    border: 2px solid #2E7D32;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Admin</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonUser">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>420</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1B5E20;
+}
+
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    border: 2px solid #4CAF50;
+    background-color: white;
+}
+
+QRadioButton::indicator:hover {
+    border: 2px solid #388E3C;
+    background-color: #E8F5E9;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #4CAF50;
+    border: 2px solid #2E7D32;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>User</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>722</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
