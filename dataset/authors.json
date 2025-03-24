@@ -4,240 +4,439 @@
         "name": "John",
         "gender": "Male",
         "hometown": "USA",
-        "book_count": "3",
-        "books": "Coca"
+        "book_count": 3,
+        "books": [
+            "Coca",
+            "Fantasy World",
+            "Legend of Heroes"
+        ]
     },
     {
         "author_id": "A2",
         "name": "Sang",
         "gender": "Male",
         "hometown": "Vietnam",
-        "book_count": "5",
-        "books": "Anime"
+        "book_count": 5,
+        "books": [
+            "Storm",
+            "Solo",
+            "The Last Stand",
+            "Revenge",
+            "Never"
+        ]
     },
     {
         "author_id": "A3",
         "name": "Anna",
         "gender": "Female",
         "hometown": "USA",
-        "book_count": "7",
-        "books": "Books"
+        "book_count": 7,
+        "books": [
+            "Mystery",
+            "Nightmare",
+            "Legend",
+            "Hope",
+            "Rising Sun",
+            "Galaxy",
+            "Universe"
+        ]
     },
     {
         "author_id": "A4",
         "name": "George",
         "gender": "Male",
         "hometown": "UK",
-        "book_count": "8",
-        "books": "Movies"
+        "book_count": 8,
+        "books": [
+            "Titanic",
+            "Darkness",
+            "Revenge",
+            "Epic",
+            "Warrior",
+            "Kingdom",
+            "Viking",
+            "Assassin's Creed"
+        ]
     },
     {
         "author_id": "A5",
         "name": "Kim",
         "gender": "Female",
         "hometown": "Korea",
-        "book_count": "2",
-        "books": "Traveling"
+        "book_count": 2,
+        "books": [
+            "Galaxy",
+            "Forest"
+        ]
     },
     {
         "author_id": "A6",
         "name": "Sofia",
         "gender": "Female",
         "hometown": "Russia",
-        "book_count": "4",
-        "books": "Sports"
+        "book_count": 4,
+        "books": [
+            "Journey",
+            "Titanic",
+            "Storm",
+            "Hope"
+        ]
     },
     {
         "author_id": "A7",
         "name": "David",
         "gender": "Male",
         "hometown": "Canada",
-        "book_count": "6",
-        "books": "Cycling"
+        "book_count": 6,
+        "books": [
+            "Warrior",
+            "Viking",
+            "Warrior of Fate",
+            "Echo",
+            "The Last Stand",
+            "Journey"
+        ]
     },
     {
         "author_id": "A8",
         "name": "Nina",
         "gender": "Female",
         "hometown": "Germany",
-        "book_count": "10",
-        "books": "Music"
+        "book_count": 10,
+        "books": [
+            "Viking",
+            "Dragon's Tale",
+            "Legend of Heroes",
+            "Warrior",
+            "The Last Stand",
+            "Storm",
+            "Kingdom",
+            "Warrior of Fate",
+            "Silent Night",
+            "Titanic"
+        ]
     },
     {
         "author_id": "A9",
         "name": "Elena",
         "gender": "Female",
         "hometown": "Italy",
-        "book_count": "3",
-        "books": "Art"
+        "book_count": 3,
+        "books": [
+            "Echo",
+            "Silent Night",
+            "Revenge"
+        ]
     },
     {
         "author_id": "A10",
         "name": "Liam",
         "gender": "Male",
         "hometown": "Australia",
-        "book_count": "5",
-        "books": "Gaming"
+        "book_count": 5,
+        "books": [
+            "Kingdom",
+            "Journey",
+            "Revenge",
+            "Storm",
+            "Warrior"
+        ]
     },
     {
         "author_id": "A11",
         "name": "Sophie",
         "gender": "Female",
         "hometown": "Spain",
-        "book_count": "9",
-        "books": "Photography"
+        "book_count": 9,
+        "books": [
+            "Viking",
+            "Echo",
+            "Darkness",
+            "Warrior",
+            "Galaxy",
+            "Rising Sun",
+            "Hope",
+            "Kingdom",
+            "Revenge"
+        ]
     },
     {
         "author_id": "A12",
         "name": "Ethan",
         "gender": "Male",
         "hometown": "USA",
-        "book_count": "4",
-        "books": "Books"
+        "book_count": 4,
+        "books": [
+            "The Last Stand",
+            "Storm",
+            "Legend",
+            "Viking"
+        ]
     },
     {
         "author_id": "A13",
         "name": "Charlotte",
         "gender": "Female",
         "hometown": "UK",
-        "book_count": "3",
-        "books": "Yoga"
+        "book_count": 3,
+        "books": [
+            "Rising Sun",
+            "Echo",
+            "Darkness"
+        ]
     },
     {
         "author_id": "A14",
         "name": "Mason",
         "gender": "Male",
         "hometown": "Canada",
-        "book_count": "7",
-        "books": "Music"
+        "book_count": 7,
+        "books": [
+            "Viking",
+            "Legend",
+            "Revenge",
+            "Storm",
+            "Hope",
+            "Warrior",
+            "Silent Night"
+        ]
     },
     {
         "author_id": "A15",
         "name": "Amelia",
         "gender": "Female",
         "hometown": "India",
-        "book_count": "5",
-        "books": "Pets"
+        "book_count": 5,
+        "books": [
+            "Warrior of Fate",
+            "Echo",
+            "Revenge",
+            "Warrior",
+            "Kingdom"
+        ]
     },
     {
         "author_id": "A16",
         "name": "Luca",
         "gender": "Male",
         "hometown": "Italy",
-        "book_count": "6",
-        "books": "Fashion"
+        "book_count": 6,
+        "books": [
+            "Viking",
+            "Warrior",
+            "Silent Night",
+            "Hope",
+            "Echo",
+            "Kingdom"
+        ]
     },
     {
         "author_id": "A17",
         "name": "Ava",
         "gender": "Female",
         "hometown": "France",
-        "book_count": "8",
-        "books": "Art"
+        "book_count": 8,
+        "books": [
+            "Viking",
+            "Silent Night",
+            "Echo",
+            "Warrior",
+            "Storm",
+            "Journey",
+            "Legend",
+            "Hope"
+        ]
     },
     {
         "author_id": "A18",
         "name": "Leo",
         "gender": "Male",
         "hometown": "Germany",
-        "book_count": "9",
-        "books": "Football"
+        "book_count": 9,
+        "books": [
+            "Silent Night",
+            "Storm",
+            "Kingdom",
+            "Warrior",
+            "Echo",
+            "Journey",
+            "Warrior of Fate",
+            "Legend",
+            "Viking"
+        ]
     },
     {
         "author_id": "A19",
         "name": "Sofia",
         "gender": "Female",
         "hometown": "France",
-        "book_count": "4",
-        "books": "Traveling"
+        "book_count": 4,
+        "books": [
+            "Journey",
+            "Warrior of Fate",
+            "Silent Night",
+            "Echo"
+        ]
     },
     {
         "author_id": "A20",
         "name": "Jack",
         "gender": "Male",
         "hometown": "USA",
-        "book_count": "5",
-        "books": "Sports"
+        "book_count": 5,
+        "books": [
+            "Warrior of Fate",
+            "Echo",
+            "Storm",
+            "Viking",
+            "Hope"
+        ]
     },
     {
         "author_id": "A21",
         "name": "Isabella",
         "gender": "Female",
         "hometown": "USA",
-        "book_count": "3",
-        "books": "Movies"
+        "book_count": 3,
+        "books": [
+            "Revenge",
+            "Echo",
+            "Viking"
+        ]
     },
     {
         "author_id": "A22",
         "name": "James",
         "gender": "Male",
         "hometown": "UK",
-        "book_count": "6",
-        "books": "Cycling"
+        "book_count": 6,
+        "books": [
+            "Journey",
+            "Hope",
+            "Echo",
+            "Warrior",
+            "Viking",
+            "Storm"
+        ]
     },
     {
         "author_id": "A23",
         "name": "Amos",
         "gender": "Male",
         "hometown": "Israel",
-        "book_count": "2",
-        "books": "Technology"
+        "book_count": 2,
+        "books": [
+            "Viking",
+            "Journey"
+        ]
     },
     {
         "author_id": "A24",
         "name": "Maya",
         "gender": "Female",
         "hometown": "India",
-        "book_count": "4",
-        "books": "Photography"
+        "book_count": 4,
+        "books": [
+            "Revenge",
+            "Echo",
+            "Journey",
+            "Kingdom"
+        ]
     },
     {
         "author_id": "A25",
         "name": "Zoe",
         "gender": "Female",
         "hometown": "Australia",
-        "book_count": "5",
-        "books": "Traveling"
+        "book_count": 5,
+        "books": [
+            "Silent Night",
+            "Storm",
+            "Viking",
+            "Warrior",
+            "Kingdom"
+        ]
     },
     {
         "author_id": "A26",
         "name": "Daniel",
         "gender": "Male",
         "hometown": "USA",
-        "book_count": "7",
-        "books": "Books"
+        "book_count": 7,
+        "books": [
+            "Revenge",
+            "Echo",
+            "Journey",
+            "Storm",
+            "Viking",
+            "Legend",
+            "Warrior"
+        ]
     },
     {
         "author_id": "A27",
         "name": "Grace",
         "gender": "Female",
         "hometown": "Canada",
-        "book_count": "5",
-        "books": "Yoga"
+        "book_count": 5,
+        "books": [
+            "Hope",
+            "Silent Night",
+            "Viking",
+            "Journey",
+            "Storm"
+        ]
     },
     {
         "author_id": "A28",
         "name": "Jacob",
         "gender": "Male",
         "hometown": "UK",
-        "book_count": "6",
-        "books": "Art"
+        "book_count": 6,
+        "books": [
+            "Warrior of Fate",
+            "Echo",
+            "Journey",
+            "Hope",
+            "Silent Night",
+            "Revenge"
+        ]
     },
     {
         "author_id": "A29",
         "name": "Olivia",
         "gender": "Female",
         "hometown": "Italy",
-        "book_count": "8",
-        "books": "Movies"
+        "book_count": 8,
+        "books": [
+            "Kingdom",
+            "Echo",
+            "Viking",
+            "Storm",
+            "Revenge",
+            "Silent Night",
+            "Journey",
+            "Hope"
+        ]
     },
     {
         "author_id": "A30",
         "name": "William",
         "gender": "Male",
         "hometown": "Australia",
-        "book_count": "10",
-        "books": "Gaming"
+        "book_count": 10,
+        "books": [
+            "Viking",
+            "Warrior",
+            "Echo",
+            "Silent Night",
+            "Storm",
+            "Journey",
+            "Hope",
+            "Kingdom",
+            "Revenge",
+            "Warrior of Fate"
+        ]
     },
     {
         "author_id": null,
@@ -248,5 +447,13 @@
         "books": [
             "ktlt"
         ]
+    },
+    {
+        "author_id": null,
+        "name": "Table",
+        "gender": null,
+        "hometown": null,
+        "book_count": 0,
+        "books": []
     }
 ]

@@ -96,7 +96,7 @@
         "published_year": "2013",
         "publisher": "Viet Nam",
         "price": 23000,
-        "quantity": 180,
+        "quantity": 178,
         "author": "Kim"
     },
     {
@@ -301,7 +301,7 @@
     },
     {
         "book_id": "B100",
-        "book_name": "Never",
+        "book_name": "Giveup",
         "type": "Action",
         "published_year": "01/01/2000",
         "publisher": "NXB ",
